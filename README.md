@@ -1,4 +1,14 @@
-# Group 05
+# Group 05 : Crafting Insights from Kickstarter Crowdfunding 🚀
+## 	👥 Contributors
+[12S21046 - Ruth Marelisa Hutagalung](https://github.com/RuthHutagalung)
+
+[12S21048 - Nessy Pentasonia Pangaribuan](https://github.com/NessyPangaribuan)
+
+[12S21050 - Jessica Wasty Sitorus](https://github.com/Jessicasitorus)
+
+[12S21052 - Griselda](https://github.com/Griselda20)
+
+[12S21054 - Diah Anastasya Sihombing](https://github.com/diahanastasya22)
 ## Data Mart-based Dashboard for Kickstarter Crowdfunding
 ## Background
 ## Goals
