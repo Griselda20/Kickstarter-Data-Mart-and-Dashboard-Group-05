@@ -25,6 +25,8 @@ throughout 1 year
 Please download our full proposal here:<br>
 [Data Mart-based Dashboard for Kickstarter Crowdfunding]()
 
+## 
+
 ##### 	👥 Contributors
 ###### [12S21046 - Ruth Marelisa Hutagalung](https://github.com/RuthHutagalung)
 ###### [12S21048 - Nessy Pentasonia Pangaribuan](https://github.com/NessyPangaribuan)
