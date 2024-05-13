@@ -773,6 +773,10 @@
         <name>deadline(fix)</name>
         <rename/>
       </field>
+      <field>
+        <name>creator_id</name>
+        <rename/>
+      </field>
       <select_unspecified>N</select_unspecified>
     </fields>
     <attributes/>
@@ -864,6 +868,10 @@
       <field>
         <column_name>deadline(fix)</column_name>
         <stream_name>deadline(fix)</stream_name>
+      </field>
+      <field>
+        <column_name>creator_id</column_name>
+        <stream_name>creator_id</stream_name>
       </field>
     </fields>
     <attributes/>
