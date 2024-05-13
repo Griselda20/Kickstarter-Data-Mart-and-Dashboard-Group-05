@@ -18,7 +18,6 @@
 ## ❓ Analysis Questions ❓
 1. What are the project funding trends?
 2. What is the most effective funding strategy used by the project?
-throughout 1 year
 3. How do experienced creators influence successful projects?
 
 ## 🏆 Goals
