@@ -32,8 +32,8 @@ The main objectives of this project are as follows.
   
 | Component           | Tools                                                              |
 | ----------------- | ------------------------------------------------------------------ |
-| Data Mart | <a href="https://www.json.org/">JSON</a>|
-| Extract, Transform, Load | Pentaho| Pentaho Data INtegration |
+| Data Mart | <a href="https://www.json.org/](https://www.bigcommerce.com/glossary/what-csv-file-and-what-does-it-mean-my-ecommerce-business/)">CSV</a>|
+| Extract, Transform, Load |<a href="https://pentaho.com/#">Pentaho</a>| Pentaho Data Integration |
 | Bussines Intelligence Application | <a href="https://www.tableau.com/">Tableau</a>| 
 
 <p align="justify">
