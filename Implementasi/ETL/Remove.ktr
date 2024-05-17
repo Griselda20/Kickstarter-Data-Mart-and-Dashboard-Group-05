@@ -430,7 +430,7 @@
     <created_date>2024/05/13 13:38:21.929</created_date>
     <modified_user>-</modified_user>
     <modified_date>2024/05/13 13:38:21.929</modified_date>
-    <key_for_session_key/>
+    <key_for_session_key>H4sIAAAAAAAA/wMAAAAAAAAAAAA=</key_for_session_key>
     <is_key_private>N</is_key_private>
   </info>
   <notepads>
@@ -458,12 +458,12 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <filename>D:\Perkuliahan\SEMESTER 6\DATA WAREHOUSE AND BUSINESS INTELLIGENCE\PROYEK\split kedua.csv</filename>
+    <filename>C:/DWBI/Proyek/Split Output 02.csv</filename>
     <filename_field/>
     <rownum_field/>
     <include_filename>N</include_filename>
     <separator>;</separator>
-    <enclosure>"</enclosure>
+    <enclosure/>
     <header>Y</header>
     <buffer_size>50000</buffer_size>
     <lazy_conversion>Y</lazy_conversion>
@@ -475,9 +475,9 @@
     <fields>
       <field>
         <name>backers_count</name>
-        <type>String</type>
+        <type>Integer</type>
         <format>#</format>
-        <currency>IDR</currency>
+        <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
         <length>15</length>
@@ -488,18 +488,18 @@
         <name>cate</name>
         <type>String</type>
         <format/>
-        <currency>IDR</currency>
+        <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>5</length>
+        <length>3</length>
         <precision>-1</precision>
         <trim_type>none</trim_type>
       </field>
       <field>
         <name>category_id</name>
-        <type>String</type>
+        <type>Number</type>
         <format>#.#</format>
-        <currency>IDR</currency>
+        <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
         <length>15</length>
@@ -510,10 +510,10 @@
         <name>category_n</name>
         <type>String</type>
         <format/>
-        <currency>IDR</currency>
+        <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>6</length>
+        <length>4</length>
         <precision>-1</precision>
         <trim_type>none</trim_type>
       </field>
@@ -521,7 +521,7 @@
         <name>category_name</name>
         <type>String</type>
         <format/>
-        <currency>IDR</currency>
+        <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
         <length>30</length>
@@ -532,7 +532,7 @@
         <name>category_analytics_name</name>
         <type>String</type>
         <format/>
-        <currency>IDR</currency>
+        <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
         <length>100</length>
@@ -543,7 +543,7 @@
         <name>category_slug</name>
         <type>String</type>
         <format/>
-        <currency>IDR</currency>
+        <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
         <length>100</length>
@@ -554,7 +554,7 @@
         <name>category_position</name>
         <type>String</type>
         <format/>
-        <currency>IDR</currency>
+        <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
         <length>100</length>
@@ -565,7 +565,7 @@
         <name>category_parent_id</name>
         <type>String</type>
         <format/>
-        <currency>IDR</currency>
+        <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
         <length>100</length>
@@ -576,7 +576,7 @@
         <name>category_parent_name</name>
         <type>String</type>
         <format/>
-        <currency>IDR</currency>
+        <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
         <length>100</length>
@@ -587,7 +587,7 @@
         <name>category_Technology</name>
         <type>String</type>
         <format/>
-        <currency>IDR</currency>
+        <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
         <length>100</length>
@@ -598,7 +598,7 @@
         <name>category_color</name>
         <type>String</type>
         <format/>
-        <currency>IDR</currency>
+        <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
         <length>100</length>
@@ -607,9 +607,9 @@
       </field>
       <field>
         <name>category_urls</name>
-        <type>String</type>
+        <type>Number</type>
         <format>#.#</format>
-        <currency>IDR</currency>
+        <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
         <length>15</length>
@@ -617,54 +617,32 @@
         <trim_type>both</trim_type>
       </field>
       <field>
-        <name>country</name>
+        <name>created_at (Fix)</name>
         <type>String</type>
         <format/>
-        <currency>IDR</currency>
+        <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>2</length>
+        <length>19</length>
         <precision>-1</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>country_displayable_name</name>
-        <type>String</type>
-        <format/>
-        <currency>IDR</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>18</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>created_at</name>
-        <type>String</type>
-        <format>#</format>
-        <currency>IDR</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>15</length>
-        <precision>0</precision>
         <trim_type>none</trim_type>
       </field>
       <field>
         <name>creator_i</name>
         <type>String</type>
         <format/>
-        <currency>IDR</currency>
+        <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>5</length>
+        <length>3</length>
         <precision>-1</precision>
         <trim_type>none</trim_type>
       </field>
       <field>
         <name>creator_id</name>
-        <type>String</type>
+        <type>Number</type>
         <format>#.#</format>
-        <currency>IDR</currency>
+        <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
         <length>15</length>
@@ -675,10 +653,10 @@
         <name>creator_n</name>
         <type>String</type>
         <format/>
-        <currency>IDR</currency>
+        <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>6</length>
+        <length>4</length>
         <precision>-1</precision>
         <trim_type>none</trim_type>
       </field>
@@ -686,7 +664,7 @@
         <name>creator_name</name>
         <type>String</type>
         <format/>
-        <currency>IDR</currency>
+        <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
         <length>30</length>
@@ -697,7 +675,7 @@
         <name>creator_slug</name>
         <type>String</type>
         <format/>
-        <currency>IDR</currency>
+        <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
         <length>100</length>
@@ -708,7 +686,7 @@
         <name>creator_is_registered</name>
         <type>String</type>
         <format/>
-        <currency>IDR</currency>
+        <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
         <length>100</length>
@@ -719,7 +697,7 @@
         <name>creator_is_email_verified</name>
         <type>String</type>
         <format/>
-        <currency>IDR</currency>
+        <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
         <length>100</length>
@@ -730,7 +708,7 @@
         <name>creator_chosen_currency</name>
         <type>String</type>
         <format/>
-        <currency>IDR</currency>
+        <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
         <length>100</length>
@@ -741,7 +719,7 @@
         <name>creator_is_superbacker</name>
         <type>String</type>
         <format/>
-        <currency>IDR</currency>
+        <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
         <length>100</length>
@@ -752,7 +730,7 @@
         <name>creator_avatar</name>
         <type>String</type>
         <format/>
-        <currency>IDR</currency>
+        <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
         <length>100</length>
@@ -763,7 +741,7 @@
         <name>creator_small</name>
         <type>String</type>
         <format/>
-        <currency>IDR</currency>
+        <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
         <length>100</length>
@@ -771,76 +749,21 @@
         <trim_type>none</trim_type>
       </field>
       <field>
-        <name>currency</name>
+        <name>deadline (Fix)</name>
         <type>String</type>
         <format/>
-        <currency>IDR</currency>
+        <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>3</length>
+        <length>19</length>
         <precision>-1</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>currency_symbol</name>
-        <type>String</type>
-        <format/>
-        <currency>IDR</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>1</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>currency_trailing_code</name>
-        <type>String</type>
-        <format/>
-        <currency>IDR</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>-1</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>current_currency</name>
-        <type>String</type>
-        <format/>
-        <currency>IDR</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>3</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>deadline</name>
-        <type>String</type>
-        <format>#</format>
-        <currency>IDR</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>15</length>
-        <precision>0</precision>
         <trim_type>none</trim_type>
       </field>
       <field>
         <name>goal</name>
         <type>String</type>
-        <format>#</format>
-        <currency>IDR</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <length>15</length>
-        <precision>0</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>id</name>
-        <type>String</type>
         <format>#.#</format>
-        <currency>IDR</currency>
+        <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
         <length>15</length>
@@ -848,21 +771,43 @@
         <trim_type>both</trim_type>
       </field>
       <field>
+        <name>id</name>
+        <type>String</type>
+        <format>#.#</format>
+        <currency>$</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>15</length>
+        <precision>0</precision>
+        <trim_type>both</trim_type>
+      </field>
+      <field>
+        <name>launched_at (Fix)</name>
+        <type>String</type>
+        <format/>
+        <currency>$</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>19</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
         <name>location_i</name>
         <type>String</type>
         <format/>
-        <currency>IDR</currency>
+        <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>5</length>
+        <length>3</length>
         <precision>-1</precision>
         <trim_type>none</trim_type>
       </field>
       <field>
         <name>location_id</name>
-        <type>String</type>
+        <type>Number</type>
         <format>#.#</format>
-        <currency>IDR</currency>
+        <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
         <length>15</length>
@@ -873,10 +818,10 @@
         <name>location_n</name>
         <type>String</type>
         <format/>
-        <currency>IDR</currency>
+        <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>6</length>
+        <length>4</length>
         <precision>-1</precision>
         <trim_type>none</trim_type>
       </field>
@@ -884,7 +829,7 @@
         <name>location_name</name>
         <type>String</type>
         <format/>
-        <currency>IDR</currency>
+        <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
         <length>30</length>
@@ -895,7 +840,7 @@
         <name>location_slug</name>
         <type>String</type>
         <format/>
-        <currency>IDR</currency>
+        <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
         <length>100</length>
@@ -906,7 +851,7 @@
         <name>location_short_name</name>
         <type>String</type>
         <format/>
-        <currency>IDR</currency>
+        <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
         <length>100</length>
@@ -917,7 +862,7 @@
         <name>location_displayable_name</name>
         <type>String</type>
         <format/>
-        <currency>IDR</currency>
+        <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
         <length>100</length>
@@ -928,7 +873,7 @@
         <name>location_localized_name</name>
         <type>String</type>
         <format/>
-        <currency>IDR</currency>
+        <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
         <length>100</length>
@@ -939,7 +884,7 @@
         <name>location_country</name>
         <type>String</type>
         <format/>
-        <currency>IDR</currency>
+        <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
         <length>100</length>
@@ -950,7 +895,7 @@
         <name>location_state</name>
         <type>String</type>
         <format/>
-        <currency>IDR</currency>
+        <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
         <length>100</length>
@@ -961,7 +906,7 @@
         <name>location_type</name>
         <type>String</type>
         <format/>
-        <currency>IDR</currency>
+        <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
         <length>100</length>
@@ -972,7 +917,7 @@
         <name>location_is_root</name>
         <type>String</type>
         <format/>
-        <currency>IDR</currency>
+        <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
         <length>100</length>
@@ -983,7 +928,7 @@
         <name>location_expanded_country</name>
         <type>String</type>
         <format/>
-        <currency>IDR</currency>
+        <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
         <length>100</length>
@@ -994,7 +939,7 @@
         <name>location_urls</name>
         <type>String</type>
         <format/>
-        <currency>IDR</currency>
+        <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
         <length>100</length>
@@ -1005,7 +950,7 @@
         <name>location_location</name>
         <type>String</type>
         <format/>
-        <currency>IDR</currency>
+        <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
         <length>100</length>
@@ -1016,18 +961,18 @@
         <name>pledged</name>
         <type>String</type>
         <format>#.#</format>
-        <currency>IDR</currency>
+        <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>20</length>
-        <precision>12</precision>
+        <length>9</length>
+        <precision>1</precision>
         <trim_type>both</trim_type>
       </field>
       <field>
         <name>state</name>
         <type>String</type>
         <format/>
-        <currency>IDR</currency>
+        <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
         <length>10</length>
@@ -1035,15 +980,15 @@
         <trim_type>none</trim_type>
       </field>
       <field>
-        <name>state_changed_at</name>
+        <name>state_changed_at (Fix)</name>
         <type>String</type>
-        <format>#.#</format>
-        <currency>IDR</currency>
+        <format/>
+        <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>15</length>
-        <precision>0</precision>
-        <trim_type>both</trim_type>
+        <length>19</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
       </field>
     </fields>
     <attributes/>
@@ -1104,12 +1049,6 @@
         <name>category_urls</name>
       </remove>
       <remove>
-        <name>country</name>
-      </remove>
-      <remove>
-        <name>country_displayable_name</name>
-      </remove>
-      <remove>
         <name>creator_i</name>
       </remove>
       <remove>
@@ -1137,18 +1076,6 @@
         <name>creator_small</name>
       </remove>
       <remove>
-        <name>currency_symbol</name>
-      </remove>
-      <remove>
-        <name>currency_trailing_code</name>
-      </remove>
-      <remove>
-        <name>current_currency</name>
-      </remove>
-      <remove>
-        <name>id</name>
-      </remove>
-      <remove>
         <name>location_i</name>
       </remove>
       <remove>
@@ -1168,6 +1095,9 @@
       </remove>
       <remove>
         <name>location_state</name>
+      </remove>
+      <remove>
+        <name>location_type</name>
       </remove>
       <remove>
         <name>location_is_root</name>
@@ -1221,7 +1151,7 @@
     <fileNameField/>
     <create_parent_folder>Y</create_parent_folder>
     <file>
-      <name>D:\Perkuliahan\SEMESTER 6\DATA WAREHOUSE AND BUSINESS INTELLIGENCE\PROYEK\kickstarter_remove</name>
+      <name>C:/DWBI/Proyek/Remove</name>
       <servlet_output>N</servlet_output>
       <do_not_open_new_file_init>N</do_not_open_new_file_init>
       <extention>csv</extention>
@@ -1240,27 +1170,27 @@
     <fields>
       <field>
         <name>backers_count</name>
-        <type>String</type>
+        <type>Integer</type>
         <format>#</format>
-        <currency/>
-        <decimal/>
-        <group/>
+        <currency>$</currency>
+        <decimal>.</decimal>
+        <group>,</group>
         <nullif/>
         <trim_type>none</trim_type>
         <length>15</length>
-        <precision>-1</precision>
+        <precision>0</precision>
       </field>
       <field>
         <name>category_id</name>
-        <type>String</type>
+        <type>Number</type>
         <format>#.#</format>
-        <currency/>
-        <decimal/>
-        <group/>
+        <currency>$</currency>
+        <decimal>.</decimal>
+        <group>,</group>
         <nullif/>
         <trim_type>both</trim_type>
         <length>15</length>
-        <precision>-1</precision>
+        <precision>0</precision>
       </field>
       <field>
         <name>category_name</name>
@@ -1275,28 +1205,28 @@
         <precision>-1</precision>
       </field>
       <field>
-        <name>created_at</name>
+        <name>created_at (Fix)</name>
         <type>String</type>
-        <format>#</format>
+        <format/>
         <currency/>
         <decimal/>
         <group/>
         <nullif/>
         <trim_type>none</trim_type>
-        <length>15</length>
+        <length>19</length>
         <precision>-1</precision>
       </field>
       <field>
         <name>creator_id</name>
-        <type>String</type>
+        <type>Number</type>
         <format>#.#</format>
-        <currency/>
-        <decimal/>
-        <group/>
+        <currency>$</currency>
+        <decimal>.</decimal>
+        <group>,</group>
         <nullif/>
         <trim_type>both</trim_type>
         <length>15</length>
-        <precision>-1</precision>
+        <precision>0</precision>
       </field>
       <field>
         <name>creator_name</name>
@@ -1311,7 +1241,7 @@
         <precision>-1</precision>
       </field>
       <field>
-        <name>currency</name>
+        <name>deadline (Fix)</name>
         <type>String</type>
         <format/>
         <currency/>
@@ -1319,35 +1249,11 @@
         <group/>
         <nullif/>
         <trim_type>none</trim_type>
-        <length>3</length>
-        <precision>-1</precision>
-      </field>
-      <field>
-        <name>deadline</name>
-        <type>String</type>
-        <format>#</format>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>15</length>
+        <length>19</length>
         <precision>-1</precision>
       </field>
       <field>
         <name>goal</name>
-        <type>String</type>
-        <format>#</format>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>15</length>
-        <precision>-1</precision>
-      </field>
-      <field>
-        <name>location_id</name>
         <type>String</type>
         <format>#.#</format>
         <currency/>
@@ -1357,6 +1263,42 @@
         <trim_type>both</trim_type>
         <length>15</length>
         <precision>-1</precision>
+      </field>
+      <field>
+        <name>id</name>
+        <type>String</type>
+        <format>#.#</format>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif/>
+        <trim_type>both</trim_type>
+        <length>15</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>launched_at (Fix)</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif/>
+        <trim_type>none</trim_type>
+        <length>19</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>location_id</name>
+        <type>Number</type>
+        <format>#.#</format>
+        <currency>$</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <nullif/>
+        <trim_type>both</trim_type>
+        <length>15</length>
+        <precision>0</precision>
       </field>
       <field>
         <name>location_name</name>
@@ -1383,18 +1325,6 @@
         <precision>-1</precision>
       </field>
       <field>
-        <name>location_type</name>
-        <type>String</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>100</length>
-        <precision>-1</precision>
-      </field>
-      <field>
         <name>pledged</name>
         <type>String</type>
         <format>#.#</format>
@@ -1403,7 +1333,7 @@
         <group/>
         <nullif/>
         <trim_type>both</trim_type>
-        <length>20</length>
+        <length>9</length>
         <precision>-1</precision>
       </field>
       <field>
@@ -1419,15 +1349,15 @@
         <precision>-1</precision>
       </field>
       <field>
-        <name>state_changed_at</name>
+        <name>state_changed_at (Fix)</name>
         <type>String</type>
-        <format>#.#</format>
+        <format/>
         <currency/>
         <decimal/>
         <group/>
         <nullif/>
-        <trim_type>both</trim_type>
-        <length>15</length>
+        <trim_type>none</trim_type>
+        <length>19</length>
         <precision>-1</precision>
       </field>
     </fields>
