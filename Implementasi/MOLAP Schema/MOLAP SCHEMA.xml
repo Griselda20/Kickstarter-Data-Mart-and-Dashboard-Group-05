@@ -1,0 +1,56 @@
+<Schema name="New Schema1">
+  <Dimension type="StandardDimension" visible="true" foreignKey="category_id" highCardinality="false" name="Category">
+    <Hierarchy name="dimcategory" visible="true" hasAll="true" allMemberName="Semua Category" primaryKey="category_id">
+      <Table name="dimcategory">
+      </Table>
+      <Level name="Category" visible="true" column="category_id" nameColumn="category_name" ordinalColumn="category_id" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+  </Dimension>
+  <Dimension type="StandardDimension" visible="true" foreignKey="creator_id" highCardinality="false" name="Creator">
+    <Hierarchy name="dimcreator" visible="true" hasAll="true" allMemberName="Semua Creator" primaryKey="creator_id">
+      <Table name="dimcreator">
+      </Table>
+      <Level name="Creator" visible="true" column="creator_id" nameColumn="creator_name" ordinalColumn="creator_id" type="Integer" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+  </Dimension>
+  <Dimension type="TimeDimension" visible="true" highCardinality="false" name="Date">
+    <Hierarchy name="dimdate" visible="true" hasAll="true" allMemberName="Semua Date" primaryKey="dimdate">
+      <Table name="dimdate">
+      </Table>
+      <Level name="created_at" visible="true" column="created_at (Fix)" nameColumn="created_at (Fix)" ordinalColumn="created_at (Fix)" type="String" uniqueMembers="false" levelType="TimeMonths" hideMemberIf="Never">
+      </Level>
+      <Level name="deadline" visible="true" column="deadline (Fix)" nameColumn="deadline (Fix)" ordinalColumn="deadline (Fix)" type="String" uniqueMembers="false" levelType="TimeMonths" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+  </Dimension>
+  <Dimension type="StandardDimension" visible="true" foreignKey="id" highCardinality="false" name="Project">
+    <Hierarchy name="dimproject" visible="true" hasAll="true" allMemberName="Semua Project" primaryKey="id">
+      <Table name="dimproject">
+      </Table>
+      <Level name="project" visible="true" column="id" nameColumn="id" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+      <Level name="state" visible="true" column="state" nameColumn="state_changed_at (Fix)" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+  </Dimension>
+  <Cube name="Kickstarter" visible="true" cache="true" enabled="true">
+    <Table name="crowdfunding_fact">
+    </Table>
+    <DimensionUsage source="Category" name="Category" visible="true" foreignKey="category_id" highCardinality="false">
+    </DimensionUsage>
+    <DimensionUsage source="Creator" name="Creator" visible="true" foreignKey="creator_id" highCardinality="false">
+    </DimensionUsage>
+    <DimensionUsage source="Date" name="Date" visible="true" foreignKey="dimdate" highCardinality="false">
+    </DimensionUsage>
+    <DimensionUsage source="Project" name="Project" visible="true" foreignKey="id" highCardinality="false">
+    </DimensionUsage>
+    <Measure name="Backers Count" column="backers_count" aggregator="distinct-count" visible="true">
+    </Measure>
+    <Measure name="Pledged" column="pledged" aggregator="distinct-count" visible="true">
+    </Measure>
+    <Measure name="Goal" column="goal" aggregator="distinct-count" visible="true">
+    </Measure>
+  </Cube>
+</Schema>
