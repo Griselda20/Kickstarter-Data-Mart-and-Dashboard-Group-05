@@ -39,7 +39,7 @@ The main objectives of this project are as follows.
 <p align="justify">
 
 ## 📊 Dashboard
-![Deskripsi Gambar](https://raw.githubusercontent.com/Griselda20/Kickstarter-Data-Mart-and-Dashboard-Group-05/main/Dashboard/Dashboard.jpg)
+![Deskripsi Gambar](Implementasi/Dashboard/Dashboard.jpg)
 
 ## 📚 Document
 Please download our full proposal here:<br>
