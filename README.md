@@ -43,7 +43,7 @@ The main objectives of this project are as follows.
 
 ## 📚 Document
 Please download our full proposal here:<br>
-[Data Mart-based Dashboard for Kickstarter Crowdfunding]()
+[Data Mart-based Dashboard for Kickstarter Crowdfunding](https://github.com/Griselda20/Kickstarter-Data-Mart-and-Dashboard-Group-05/blob/main/Doc/laporan-proyek-dwbi-g5.pdf)
 
 ## 
 
